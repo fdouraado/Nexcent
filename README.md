@@ -109,7 +109,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 Filipi Dourado</a>
  <br />
  
-[![Gmail Badge](https://img.shields.io/badge/-mthalvarez2005@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:mthalvarez2005@gmail.com)](mailto:mthalvarez2005@gmail.com)
+[![Gmail Badge])
 
 ---
 
