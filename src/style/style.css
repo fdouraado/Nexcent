@@ -1,0 +1,385 @@
+@import url('./global.css'); /* Import global */
+
+/* Header */
+
+header {
+    display: flex; /* deixa móvel*/
+    justify-content: space-around; /* espalha os elementos */
+    align-items: center; /* alinha os elementos vertical */
+    padding: 22px 0px; /* superior/inferior & esquerda/direita */
+    background-color: var(--color-neutral-Silver);
+}
+
+.logo-header img {
+    width: 154.49px; /* largura */
+    height: 24px; /* altura */
+}
+
+.nav-header ul {
+    display: flex; /* deixa móvel */
+    gap: 50px; /* espaçamento entre os elementos */
+    list-style: none; /* remove a lista */
+}
+
+.nav-header ul li a {
+    color: #18191F; /* cor do texto */
+    font-weight: var(--font-body2-weight); /* peso do texto */
+}
+
+.nav-header ul li a:hover {
+    color: var(--color-primary); /* cor do hover */
+    text-decoration: underline; /* sublinha */
+    transition: 0.3s; /* tempo de transição */
+}
+
+.container-btn-header {
+    display: flex; /* deixa móvel */
+    gap: 14px; /* espaçamento entre os elementos */
+
+}
+
+.container-btn-header button {
+    padding: 10px 20px; /* superior/inferior & esquerda/direita */
+    border-radius: 6px; /* arredondamento */
+    cursor: pointer; /* cursor do mouse */
+}
+
+.container-btn-header .btn-login {
+    background-color: var(--color-neutral-Silver);
+}
+
+.container-btn-header .btn-login a {
+    color: var(--color-primary);
+}
+
+.container-btn-header .btn-signup {
+    background-color: var(--color-primary);
+    
+}
+
+.container-btn-header .btn-signup a {
+
+    color: var(--color-neutral-White);
+}
+
+/* Fim do Header */
+
+/* conteudo main */
+
+main {
+    display: flex; /* deixa móvel */
+    justify-content: center; /* alinha para o centro  horizontal*/
+    align-items: center; /* alinha para o centro vertical*/
+    gap: 104px; /* espaçamento entre os elementos */
+    padding: 96px 0px; /* superior/inferior  & lateral*/
+    background-color: var(--color-neutral-Silver);
+}
+
+.content-hero {
+    display: flex; /* deixa móvel */
+    flex-direction: column; /* alinha vertical */
+    gap: 16px; /* espaçamento entre os elementos */
+    width: 657px;
+}
+
+.content-hero h1 {
+    font-size: var(--font-headline1-size);
+}
+
+.content-hero h1 span {
+    color: var(--color-primary);
+}
+
+/* fim do main */
+
+/* seção one */
+
+.our-clients {
+    display: flex; /* deixa móvel */
+    flex-direction: column; /* alinha vertical */
+    gap: 16px; /* espaçamento entre os elementos */
+    text-align: center; /* alinha para o centro */
+    margin: 40px 0px; /* superior/inferior */
+}
+
+.content-our-clients {
+    display: flex; /* deixa móvel */
+    flex-direction: column; /* alinha vertical */
+    gap: 8px;
+}
+
+.container-logo-clients {
+    display: flex; /* deixa móvel */
+    justify-content: center; /* alinha para o centro  horizontal*/
+    gap: 136px; /* espaçamento entre os elementos */
+    padding: 25px 0px;
+}
+ /* fim da seção one */
+
+/* article */
+.manage-system {
+    display: flex; /* deixa móvel */
+    flex-direction: column; /* alinha vertical */
+    gap: 16px; /* espaçamento entre os elementos */
+    text-align: center; /* alinha para o centro */
+    align-items: center; /* alinha para o centro */
+    margin: 40px 0px; /* superior/inferior */
+}
+
+.content-manage-system {
+    display: flex; /* deixa móvel */
+    flex-direction: column; /* alinha vertical */
+    gap: 8px; /* espaçamento entre os elementos */
+}
+
+.content-manage-system h2 {
+    width: 542px;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 127.5px;
+}
+
+.cards-container article {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 299px;
+    padding: 24px 16px;
+    box-shadow: 0 2px 4px rgba(171, 190, 209, 0.2);
+}
+
+
+/* ------------ PIXELGRADE ------------ */
+
+.pixelgrade{
+    display: flex;
+    justify-content: center;
+    gap: 49.47px;
+    margin-top: 42px;   
+    padding: 52px; 
+}
+
+.pixelgrade-content{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 601px;
+}
+
+.pixelgrade-content h2{
+    width: 564px;
+}
+
+.pixelgrade-content p{
+    font-size: var(--font-body3-size);
+    line-height: 20px;
+}
+
+/* ------------ FIM PIXELGRADE ------------ */
+
+/* ------------ helping-local ------------ */
+
+.helping-local{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 204px;
+    padding: 64px;
+    background-color: var(--color-neutral-Silver);
+    margin-top: 48px;
+}
+
+.helping-local-content{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.helping-local-content h2{
+    width: 380px;            
+}
+
+.helping-local-content h2 span{
+    color: var(--color-primary);
+}
+
+.helping-local-content p{
+    color: #18191F;
+}
+
+.helping-local-statistic{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px;
+}
+
+.helping-local-items{
+    display: flex;
+    gap: 16px;
+}
+
+/* ------------ FIM helping-local ------------ */
+
+/* ------------ How Design ------------ */
+
+
+.how-design{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px 0;
+    gap: 49.47px;
+}
+
+.how-design-content{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.how-design-content h2, .how-design-content p{
+    width: 601px;
+}
+
+.how-design-content p{
+    font-size: var(--font-body3-size);
+
+}
+
+/* ------------ FIM How Design ------------ */
+
+/* ------------ customer ------------ */
+
+.customer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 78px;
+    padding: 32px;
+    background-color: var(--color-neutral-Silver);
+}
+
+.customer-content{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 748px;
+    line-height: 24px;
+}
+
+.customer-signature{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.customer-signature h2{
+    color: var(--color-primary);
+    font-size: var(--font-headline4-size);
+}
+
+.customer-signature p{
+    color: var(--color-neutral-L_Grey);
+}
+
+.customer-container{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    margin-top: 16px;
+}
+
+.custumer-itens{
+    display: flex;
+    gap: 41px;
+}
+
+.customer-itens img{
+    width: 48px;
+}
+
+
+/* ------------ FIM customer ------------ */
+
+/* ------------ caring-marketing ------------ */
+
+.caring-marketing{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    text-align: center;
+    margin-top: 48px;
+}
+
+.caring-marketing p{
+    width: 628px;
+    margin: 0 auto;
+}
+
+.caring-marketing-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+    gap: 24px;
+}
+
+.caring-marketing-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    width: 368px;
+    position: relative;
+}
+
+.caring-card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    background-color: var(--color-neutral-Silver);    
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0px 8px 16px rgba(171, 190, 209, 0.4);
+    width: 317px;
+    position: absolute;
+    top: 190px;    
+}
+
+.caring-card-content h3{
+    font-size: var(--font-headline4-size);
+    font-weight: var(--font-headline4-weight);
+    color: var(--color-neutral-Grey);    
+    width: 280px;
+}
+
+/* ------------ FIM caring-marketing ------------ */
+
+/* ------------ Pellentesque ------------ */
+
+.pellentesque{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    padding: 32px 0px;
+    margin-top: 94.6px;    
+    background-color: var(--color-neutral-Silver);    
+}
+
+.pellentesque h2{
+    font-size: var(--font-headline1-size);
+    width: 722px;
+    text-align: center;
+}
+
+.pellentesque a{
+    display: flex;   
+    align-self: center; 
+    gap: 8px;
+    text-decoration: none;
+}
+
+/* ------------ FIM Pellentesque ------------ */
